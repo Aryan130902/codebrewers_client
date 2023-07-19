@@ -5,11 +5,10 @@ import { SERVICE_URLS } from "../config/config";
 
 
 // Load environment variables
-dotenv.config();
-
+const API_URL = 'http://localhost:8000'
 
 const apiClient = axios.create({
-  baseURL: process.env.API_URL,
+  baseURL: API_URL,
 });
 
 

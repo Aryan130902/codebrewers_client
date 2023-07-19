@@ -1,11 +1,14 @@
 import './App.css'
+import SignUp from './components/Account/SignUp'
+
+
 
 function App() {
 
   return (
-    <>
-     aparajit
-    </>
+    <div>
+      <SignUp/>
+    </div>
   )
 }
 
