@@ -71,7 +71,7 @@ const API = {};
 
 for (const [key, value] of Object.entries(SERVICE_URLS)) {
     API[key] = (body) =>
-        axiosInstance({
+        apiClient({
             method: value.method,
             url: value.url,
             data: body,
